@@ -40,7 +40,7 @@ const Newsitem =(props)=> {
       <div className='my-3'>
         <div className="card" >
         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-         {source}
+        {source}
           <span className="visually-hidden"></span>
         </span>
            <img src={imageUrl? imageUrl:"https://c.ndtvimg.com/2023-04/e3q8kptc_rahul-gandhi-leaves-bungalow_625x300_22_April_23.jpg?im=FeatureCrop,algorithm=dnn,width=650,height=400"} className="card-img-top" alt="img"/>
